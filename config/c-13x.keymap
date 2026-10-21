@@ -43,6 +43,11 @@
         };
     };
 
+/ {
+    chosen {
+        zmk,physical-layout = &physical_layout_0;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
